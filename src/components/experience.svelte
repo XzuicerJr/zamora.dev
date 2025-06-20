@@ -16,7 +16,7 @@
 >
   <div class="flex items-center justify-between">
     <h2 class="text-xl font-medium">Experience</h2>
-    <Button size="sm" class="space-x-1 flex items-center" href="../static/Resume-CesarZamora.pdf" target="_blank" download="Resume-CesarZamora.pdf">
+    <Button size="sm" class="space-x-1 flex items-center" href="https://drive.google.com/uc?export=download&id=1YIYqqOV8kq82_0q2EiWSSL43zubIdy8G" target="_blank" download="Resume-CesarZamora.pdf">
       <span>Resume</span>
       <Download size={16} />
     </Button>
