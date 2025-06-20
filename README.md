@@ -50,7 +50,6 @@
 
 - [**Sveltekit** + **Svelte 5**](https://svelte.dev/) - Web development for the rest of us.
 - [**Typescript**](https://www.typescriptlang.org/) - JavaScript with syntax for types.
-- [**mdsvex**](https://mdsvex.com/) - Markdown for Svelte apps.
 - [**Tailwindcss**](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
 - [**bits-ui**](https://www.bits-ui.com) - A collection of headless components for Svelte.
 - [**clsx**](https://github.com/lukeed/clsx) + [**tailwind-variants**](https://www.tailwind-variants.org/) - The power of Tailwind combined with a first-class variant API.
