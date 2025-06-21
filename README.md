@@ -1,10 +1,10 @@
-<!-- TODO: Add new image to readme -->
-<!-- <div align="center">
-<a href="https://zamora.dev">
-  <img src="static/images/readme_img.png">
-</a>
-<p></p>
-</div> -->
+<div align="center">
+    <a href="https://zamora.dev">
+        <img src="static/images/readme-img.png">
+    </a>
+</div>
+
+</p>
 
 <div align="center">
     <a href="https://zamora.dev" target="_blank">
