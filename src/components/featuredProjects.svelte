@@ -15,17 +15,7 @@
   <h2 class="text-xl font-medium">Projects</h2>
   <div class="grid grid-cols-1 gap-3 md:grid-cols-2">
     {#each featuredProjects as project}
-      <ProjectCard
-        title={project.title}
-        description={project.description}
-        url={project.url}
-        githubUrl={project.githubUrl}
-        icon={project.icon}
-        tags={project.tags}
-        status={project.status}
-        color={project.color}
-        blurColor={project.blurColor}
-      />
+      <ProjectCard {...project} />
     {/each}
   </div>
 </section>

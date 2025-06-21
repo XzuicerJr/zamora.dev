@@ -70,24 +70,6 @@
         return '';
     }
   };
-
-  const hexToRgbA = (hex: string): string => {
-    let c: any;
-    if(/^#([A-Fa-f0-9]{3}){1,2}$/.test(hex)){
-        c= hex.substring(1).split('');
-        if(c.length== 3){
-            c= [c[0], c[0], c[1], c[1], c[2], c[2]];
-        }
-        c= '0x'+c.join('');
-        return 'rgba('+[(c>>16)&255, (c>>8)&255, c&255].join(',')+',1)';
-    }
-    throw new Error('Bad Hex');
-  }
-
-  const colors = {
-    border: color ? `border-[${color}]/50` : $mode === 'dark' ? 'border-white/50' : 'border-black/50',
-    mask: hexToRgbA(color ?? '#000000')
-  }
 </script>
 
 <div
@@ -107,7 +89,7 @@
       opacity: {opacity};
       -webkit-mask-image: radial-gradient(30% 30px at {position.x}px {position.y}px, {color ?? 'black'} 45%, transparent);
       background-color: transparent;
-      border-color: {color ? `${color}80` : $mode === 'dark' ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.5)'}
+      border-color: {color ? color : $mode === 'dark' ? 'rgba(255, 255, 255, 0.5)' : 'rgba(0, 0, 0, 0.5)'}
     "
   />
   <div

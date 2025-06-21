@@ -33,7 +33,7 @@ export const experienceData: iExperience[] = [
   {
     role: 'Web Developer',
     aboutRole:
-      'Designed and developed a modern landing page for a Chilean company offering diverse services, combining creativity and functionality to showcase services and strengths while ensuring a smooth and intuitive user experience.',
+      'Designed and developed a modern <a href="https://cieser.cl" class="text-blue-500 underline" target="_blank">landing page</a> for a Chilean company offering diverse services, combining creativity and functionality to showcase services and strengths while ensuring a smooth and intuitive user experience.',
     company: 'CIESER',
     companyUrl: 'https://cieser.cl',
     companyLogo: CieserLogo,

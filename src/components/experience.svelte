@@ -71,9 +71,12 @@
             />
           </a>
         </div>
-        <p class="mt-3 text-pretty text-sm dark:text-neutral-400">
-          {experience.aboutRole}
-        </p>
+        <!-- bind:innerHTML needed to make link inside the text clickable -->
+        <p
+          class="mt-3 text-pretty text-sm dark:text-neutral-400"
+          contenteditable="false"
+          bind:innerHTML={experience.aboutRole} 
+        ></p>
         <div class="mt-3 flex flex-col space-y-0.5">
           {#if experience.technologies.length > 0}
               <div class="flex flex-wrap gap-2">

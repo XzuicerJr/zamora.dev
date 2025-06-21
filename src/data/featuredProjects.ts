@@ -2,16 +2,26 @@ import type { iProjects } from '@/types/featuredProjects.types';
 
 import CieserLogo from '@/icons/companies/cieser.svelte';
 import InsightedLogo from '@/icons/projects/insighted.svelte';
+import DirectDownloadLogo from '@/icons/projects/directdownload.svelte';
 
 export const featuredProjects: iProjects[] = [
   {
-    title: 'InsightED',
+    title: 'Cloud Direct Download',
+    description:
+      '🔗 An open-source tool that helps you generate direct download links for your files in the cloud.',
+    tags: ['Next.js', 'Tailwind CSS', 'Shadcn', 'TypeScript', 'Vercel', 'Github'],
+    icon: DirectDownloadLogo,
+    status: 'wip',
+    color: '#ff9a0a',
+    blurColor: 'rgba(255, 154, 10, 0.1)'
+  },
+  {
+    title: 'InsightEd',
     description:
       '🔍 A platform that helps teachers track and manage students, classes, and academic progress.',
     tags: [
       'Next.js',
       'Tailwind CSS',
-      // 'Shadcn',
       'TypeScript',
       'Vercel',
       'NestJS',
@@ -19,7 +29,6 @@ export const featuredProjects: iProjects[] = [
       'Prisma',
       'Railway'
     ],
-    // url: 'https://insighted.zamora.dev',
     icon: InsightedLogo,
     status: 'wip'
   },
@@ -36,7 +45,7 @@ export const featuredProjects: iProjects[] = [
   {
     title: 'CIESER',
     description: '🏠 A modern landing page for a Chilean company',
-    tags: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Figma', 'Github', 'Vercel'],
+    tags: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Figma', 'Vercel'],
     url: 'https://cieser.cl',
     icon: CieserLogo,
     status: 'live',

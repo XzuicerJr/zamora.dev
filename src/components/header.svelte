@@ -29,7 +29,7 @@
 </script>
 
 <nav
-  class="container sticky top-0 z-50 mb-1 flex w-full max-w-4xl items-center justify-between bg-neutral-100/80 py-4 backdrop-blur-md dark:bg-neutral-900/80"
+  class="container sticky top-0 z-50 mb-1 flex w-full max-w-4xl items-center justify-between bg-neutral-100/50 py-4 backdrop-blur-lg dark:bg-neutral-900/50"
 >
   <a
     href="/"
