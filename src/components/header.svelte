@@ -28,16 +28,16 @@
   ];
 </script>
 
-<nav
+<header
   class="container sticky top-0 z-50 mb-1 flex w-full max-w-4xl items-center justify-between bg-neutral-100/50 py-4 backdrop-blur-lg dark:bg-neutral-900/50"
 >
   <a
     href="/"
     class="text-md flex items-center space-x-2 font-medium tracking-tight opacity-80 transition-opacity duration-150 hover:opacity-100"
   >
-    <span>zamora.dev</span>
+    zamora.dev
   </a>
-  <div class="flex items-center space-x-1">
+  <nav class="flex items-center space-x-1">
     {#each SocialLinks as { name, url, icon, iconSize}, i}
       {@const SvelteComponent = icon}
       <a
@@ -55,5 +55,5 @@
       </a>
     {/each}
     <ModdeToggle />
-  </div>
-</nav>
+  </nav>
+</header>

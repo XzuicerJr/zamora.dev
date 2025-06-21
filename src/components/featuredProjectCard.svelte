@@ -83,6 +83,7 @@
   class="relative flex flex-col rounded-md border-[0.0625rem] border-neutral-300 px-3 py-4 shadow-sm dark:border-neutral-800"
 >
   <input
+    tabindex="-1"
     aria-hidden="true"
     class="pointer-events-none absolute left-0 top-0 z-10 h-full w-full cursor-default rounded-[0.310rem] border transition-opacity duration-500 placeholder:select-none border-black/50"
     style="
