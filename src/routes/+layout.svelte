@@ -25,7 +25,7 @@
 
 <ModeWatcher />
 
-<section class="relative flex min-h-screen flex-col py-4 md:py-6">
+<section class="relative flex min-h-dvh flex-col py-4 md:py-6">
   <Header />
   {@render children?.()}
   <Footer />
