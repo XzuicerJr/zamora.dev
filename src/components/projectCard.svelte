@@ -129,7 +129,11 @@
       {#each tags as tag}
         {#each technologies.filter((s) => s.stack === tag) as { icon: Icon }}
           <Badge extraClasses="whitespace-nowrap">
-            <Icon width={14} height={14} class="flex-shrink-0" />
+            {#if typeof Icon === 'string'}
+              <img src={Icon} alt={tag} height={14} width={14} class="flex-shrink-0 size-3.5" />
+            {:else}
+              <Icon width={14} height={14} class="flex-shrink-0" />
+            {/if}
             <span>{tag}</span>
           </Badge>
         {/each}

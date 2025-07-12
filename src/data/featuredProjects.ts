@@ -2,18 +2,28 @@ import type { iProjects } from '@/types/featuredProjects.types';
 
 import CieserLogo from '@/icons/companies/cieser.svelte';
 import InsightedLogo from '@/icons/projects/insighted.svelte';
-import DirectDownloadLogo from '@/icons/projects/directdownload.svelte';
 
 export const featuredProjects: iProjects[] = [
   {
-    title: 'Cloud Direct Download',
+    title: 'Mark',
     description:
-      '🔗 An open-source tool that helps you generate direct download links for your files in the cloud.',
-    tags: ['Next.js', 'Tailwind CSS', 'Shadcn', 'TypeScript', 'Vercel', 'Github'],
-    icon: DirectDownloadLogo,
-    status: 'wip',
-    color: '#ff9a0a',
-    blurColor: 'rgba(255, 154, 10, 0.1)'
+      '🔗 An open-source habit tracker to help you build good habits and break bad ones.',
+    tags: [
+      'Next.js',
+      'Tailwind CSS',
+      'Shadcn',
+      'TypeScript',
+      'Vercel',
+      'Github',
+      'Railway',
+      'Auth.js'
+    ],
+    githubUrl: 'https://github.com/XzuicerJr/mark',
+    url: 'https://mark.zamora.dev',
+    icon: 'https://raw.githubusercontent.com/XzuicerJr/mark/main/public/assets/logo.svg',
+    status: 'live',
+    color: '#008904',
+    blurColor: 'rgba(0, 137, 4, 0.1)'
   },
   {
     title: 'InsightEd',

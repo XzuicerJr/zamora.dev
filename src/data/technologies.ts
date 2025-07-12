@@ -27,13 +27,17 @@ import Vercel from '@/icons/stack/vercel.svelte';
 
 interface Technologies {
   stack: Stack;
-  icon: Component;
+  icon: Component | string;
 }
 
 export const technologies: Technologies[] = [
   {
     stack: 'Ant Design',
     icon: Antd
+  },
+  {
+    stack: 'Auth.js',
+    icon: 'https://raw.githubusercontent.com/XzuicerJr/zamora.dev/master/src/icons/stack/authjs.png'
   },
   {
     stack: 'CLI',

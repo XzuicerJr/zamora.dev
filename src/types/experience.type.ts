@@ -1,4 +1,3 @@
-import type { SvelteComponent } from 'svelte';
 import type { Stack } from './featuredProjects.types';
 
 export interface iExperience {

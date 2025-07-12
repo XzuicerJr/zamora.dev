@@ -1,7 +1,6 @@
-import type { SvelteComponent } from 'svelte';
-
 export type Stack =
   | 'Ant Design'
+  | 'Auth.js'
   | 'CLI'
   | 'Figma'
   | 'Github'
