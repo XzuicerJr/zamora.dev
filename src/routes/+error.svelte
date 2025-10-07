@@ -15,7 +15,7 @@
 </script>
 
 <svelte:head>
-  <title>Page Not Found - zamora.dev</title>
+  <title>Page Not Found - zmra.dev</title>
   <meta name="description" content="The page you're looking for doesn't exist." />
 </svelte:head>
 

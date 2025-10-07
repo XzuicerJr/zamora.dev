@@ -7,10 +7,10 @@
 </script>
 
 <svelte:head>
-  <title>César Zamora - zamora.dev</title>
+  <title>César Zamora - zmra.dev</title>
   <meta property="og:title" content="César Zamora" />
   <meta property="og:description" content="Building cool stuff" />
-  <meta name="image" property="og:image" content="https://zamora.dev/images/readme-img.png" />
+  <meta name="image" property="og:image" content="https://zmra.dev/images/readme-img.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 </svelte:head>

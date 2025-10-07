@@ -19,7 +19,7 @@ export const featuredProjects: iProjects[] = [
       'Auth.js'
     ],
     githubUrl: 'https://github.com/XzuicerJr/mark',
-    url: 'https://mark.zamora.dev',
+    url: 'https://mark.zmra.dev',
     icon: 'https://raw.githubusercontent.com/XzuicerJr/mark/main/public/assets/logo.svg',
     status: 'live',
     color: '#008904',

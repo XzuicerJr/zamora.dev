@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://zamora.dev">
+    <a href="https://zmra.dev">
         <img src="static/images/readme-img.png">
     </a>
 </div>
@@ -7,7 +7,7 @@
 </p>
 
 <div align="center">
-    <a href="https://zamora.dev" target="_blank">
+    <a href="https://zmra.dev" target="_blank">
         Website
     </a>
     <span>&nbsp;❖&nbsp;</span>
@@ -19,7 +19,7 @@
         Contribute
     </a>
     <span>&nbsp;❖&nbsp;</span>
-    <a href="https://zamora.dev/tw">
+    <a href="https://zmra.dev/tw">
         X
     </a>
     <span>&nbsp;❖&nbsp;</span>

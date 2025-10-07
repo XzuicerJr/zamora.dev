@@ -11,10 +11,10 @@ export const projects: iProjects[] = featuredProjects.concat([
     status: 'live'
   },
   {
-    title: 'zamora.dev',
+    title: 'Zamora',
     description: '🪄 My personal website.',
     tags: ['Svelte', 'Shadcn', 'Tailwind CSS', 'TypeScript', 'Github', 'Vercel'],
-    url: 'https://zamora.dev',
+    url: 'https://zmra.dev',
     githubUrl: 'https://github.com/XzuicerJr/zamora.dev',
     icon: 'https://raw.githubusercontent.com/XzuicerJr/zamora.dev/master/static/images/logo_svg.svg',
     status: 'live'

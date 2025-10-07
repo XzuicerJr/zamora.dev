@@ -35,7 +35,7 @@
     href="/"
     class="text-md flex items-center space-x-2 font-medium tracking-tight opacity-80 transition-opacity duration-150 hover:opacity-100"
   >
-    zamora.dev
+    Zamora
   </a>
   <nav class="flex items-center space-x-1">
     {#each SocialLinks as { name, url, icon, iconSize}, i}
