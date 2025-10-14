@@ -17,6 +17,7 @@ export type Stack =
   | 'SCSS/SASS'
   | 'Shadcn'
   | 'Storybook'
+  | 'Stripe'
   | 'Styled-Components'
   | 'Svelte'
   | 'Tailwind CSS'

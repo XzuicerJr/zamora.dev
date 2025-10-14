@@ -5,6 +5,16 @@ import InsightedLogo from '@/icons/projects/insighted.svelte';
 
 export const featuredProjects: iProjects[] = [
   {
+    title: 'Faktur',
+    description:
+      '💼 A modern invoicing platform designed for freelancers and small businesses — simple, fast, and privacy-focused.',
+    tags: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Vercel', 'PostgreSQL', 'Prisma', 'Railway'],
+    // icon: FakturLogo,
+    status: 'wip',
+    color: '#ff9a0a',
+    blurColor: 'rgba(255, 154, 10, 0.1)'
+  },
+  {
     title: 'Mark',
     description:
       '🔗 An open-source habit tracker to help you build good habits and break bad ones.',

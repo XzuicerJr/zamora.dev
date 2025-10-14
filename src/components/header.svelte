@@ -15,7 +15,7 @@
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/zamorabuild',
+      url: 'https://twitter.com/heyzamora__',
       icon: X,
       iconSize: 18
     },

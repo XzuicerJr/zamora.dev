@@ -16,10 +16,6 @@
 >
   <div class="flex items-center justify-between">
     <h2 class="text-xl font-medium">Experience</h2>
-    <Button size="sm" class="space-x-1 flex items-center" href="https://dub.sh/yVMdbfC" target="_blank" download="Resume-CesarZamora.pdf">
-      <span>Resume</span>
-      <Download size={16} />
-    </Button>
   </div>
 
   <ol class="relative space-y-6 border-s-2 border-neutral-300 dark:border-neutral-800">

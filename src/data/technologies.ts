@@ -104,6 +104,10 @@ export const technologies: Technologies[] = [
     icon: Storybook
   },
   {
+    stack: 'Stripe',
+    icon: ''
+  },
+  {
     stack: 'Styled-Components',
     icon: StyledComponents
   },
